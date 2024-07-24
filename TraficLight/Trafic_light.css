@@ -1,0 +1,52 @@
+*{
+    background-color: black;
+}
+
+h1{
+    color:yellow;
+    text-decoration: underline;
+}
+
+#outerDiv{
+    background-color: rgb(59, 56, 56);
+
+    height:310px;
+    width:130px;
+
+    border-width:10px;
+    border-color:grey;
+    border-style:inset;
+    border-radius:20px;
+
+    padding: 10px 10px 10px 30px;
+
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:20px;
+    margin-right:10px;
+
+}
+
+div{
+    margin-bottom:5px;
+    height:100px;
+    width:100px;
+
+    border-color:black;
+    border-width:5px;
+    border-style:none;
+    border-radius:50px;
+    
+}
+
+#id001{
+    background-color:rgb(143, 6, 6);
+}
+
+#id002{
+    background-color:rgb(246, 246, 13);
+}
+
+#id003{
+    background-color:rgb(1, 96, 1);
+}
