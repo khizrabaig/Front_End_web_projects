@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        form{
+            background-color:rgb(255, 255, 255);
+            border-left:25px;
+            border-right:25px;
+            border-color: rgb(148, 234, 204);
+            border-style: solid;
+
+            padding-left: 200px;
+            padding-right: 300px;
+
+        }
+
+        div.one{
+            text-align: center;
+        }
+        
+         select.design{
+            background-color: rgba(183, 192, 198, 0.553);
+            height: 30px;
+         }
+
+    </style>
+   
+    <title>Survey Form</title>
+</head>
+<body> 
+    <header style="background-color:rgb(148, 234, 204); height: 50px;"><h1 style="text-align: center;">SURVEY FORM</h1></header>
+    <form action="url", method="post">
+    <div class="one">
+    <p>Let us know how we can improve freeCodeCamp</p>
+     <label for="name">*Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+    <br/>
+    <br/>
+    <label for="email">*Email</label>
+        <input type="text" id="email" placeholder="Enter your Email">
+    <br/>
+    <br/>
+    <label for="age">*Age </label>
+        <input type="number" id="age" placeholder="Age" >
+    <br/>
+    <br/>
+    </div >
+
+    <div class="two">
+    <label for="role">Which option best describe your role</label>
+    <select id="role" class="design">
+    <option value="">select</option>
+    <option value="student">student</option>
+    <option value="teacher">teacher</option>
+    <option value="employee">employee</option>
+    <option value="developer">developer</option>
+    </select>
+    <br/>
+    <br/>
+    <pre>        *how likely is that you would recommend <label for="d"><input type="radio" id="d" value="Definitely" name="class">Definitely</label>
+                      freeCodeCamp to a friends <label for="m"><input type="radio" id="m" value="Maybe" name="class">Maybe</label>
+                                                <label for="n"><input type="radio" id="n" value="NotSure"name="class">NotSure</label>
+    </pre>
+    <br/>
+    <label for="fcc">
+         what do you like most in FCC
+         <select id="fcc" class="design">
+            <option>select</option>
+            <option>television</option>
+            <option>cabel</option>
+            <option>wireless communication</option>
+         </select>
+    </label>
+    <br/>
+    <br/>
+    <pre>Things that should be improve in a future <label for="fp"><input type="checkbox" name="class" id="fp">front-end projects</label>
+                        (check that all): <label for="bp"><input type="checkbox" name="class" id="bp">back-end projects</label>
+                                          <label for="v"><input type="checkbox" name="class" id="v">Data Visualization</label>
+    </pre>
+    <br/>
+    </div>
+    </form>
+</body>
+</html>
