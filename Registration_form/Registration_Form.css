@@ -1,0 +1,64 @@
+
+#outerdiv{
+    border: 70px solid #0050ac;
+    padding: 20px 20px 20px 20px;
+    position: relative;
+    height:520px;
+    width:600px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-style:initial;
+    color:grey
+}
+input{
+    height: 25px;
+}
+button{
+    height:35px;
+    width:200px;
+    color: white;
+    background-color: #0e4cd0 ;
+}
+.db{
+    position: absolute;
+    left:34%;
+    top:25%;
+}
+.e{
+    position: absolute;
+    left:65%;
+    top:25%;
+}
+.g{
+    position: absolute;
+    left:34%;
+    top:40%;
+}
+.o{
+    position: absolute;
+    left:65%;
+    top:40%;
+}
+.id_no{
+    position: absolute;
+    left:34%;
+    top:62.5%;
+}
+.sa{
+    position: absolute;
+    left:65%;
+    top:62.5%;
+}
+.state{
+    position: absolute;
+    left:34%;
+    top:78%;
+}
+.expire{
+    position: absolute;
+    left:65%;
+    top:78%;
+}
