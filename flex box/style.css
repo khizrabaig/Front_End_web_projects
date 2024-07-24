@@ -1,0 +1,128 @@
+.outerDiv{
+    width: 100%;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.headerDiv{
+    display: flex;
+    justify-content: center;
+}
+span{
+    margin-right: 30px;
+}
+span #icon{
+    color:rgb(0, 68, 255);
+    margin-right: 5px;
+}
+span #text{
+    color:blue;
+    margin-top: 40px;
+}
+#text{
+    color:rgb(0, 68, 255);
+    margin-right:none;
+}
+#pircing{
+    margin-right:250px;
+}
+#last_e{
+    height:25px;
+    width:120px;
+    background-color: rgb(0, 68, 255);
+    border: 1px solid rgb(0, 68, 255);
+    color: white;
+    border-radius:20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+#p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    line-height: 5px;
+    
+}
+#p2{
+     font-size:13px;
+     text-align: center;
+     color:rgba(5, 4, 4, 0.639);
+}
+.Div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;;
+}
+#last1{
+    height:25px;
+    width:120px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    border-radius:20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:15px;
+}
+#last2{
+    height:25px;
+    width:100px;
+    font-size: small;
+    color:rgba(0, 0, 0, 0.484);
+    border: 1px solid rgba(0, 0, 0, 0.402);
+    border-radius:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#para{
+    display: flex;
+    justify-content: center;
+    color:rgba(0, 0, 0, 0.669);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+.footerDiv{
+      display: flex;
+      justify-content: center;
+}
+
+@media screen and (min-width:900px) and (max-width:1200px){
+    div{
+        box-sizing:border-box;
+        height:70%;
+    }
+}
+@media screen and (min-width:700px) and (max-width:900px){
+    div{
+        box-sizing:border-box;
+        height:70%;
+    }
+}
+@media screen and (min-width:500px) and (max-width:700px){
+   
+    div{
+        box-sizing:border-box;
+        height:70%;
+    }
+    .middleDiv{
+        box-sizing:border-box;
+        height:100%;
+    }
+    .outerDiv{
+        box-sizing:border-box;
+        height:100%;
+    }
+}
