@@ -1,0 +1,261 @@
+html body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing:border-box;
+}
+
+#id1{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.NavBar{
+  display: grid;
+  grid-template-rows:50px;
+  grid-template-columns: 150px auto;
+  align-items: center;
+}
+
+.NavBar div{
+  margin-right: 40px;
+}
+
+#Block1 img{
+  height:50px;
+  width:50px;
+}
+#Block1 #sada{
+  font-weight: bold;
+  color:rgb(2, 2, 56);
+}
+#Block1{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100%;
+
+}
+
+
+.NavBar >div{
+  margin-left: 25%;
+}
+
+
+#Block2 span{
+  margin-right: 30px;
+  color:grey;
+}
+
+#Block2 span :hover{
+  text-decoration: underline;
+  color:rgba(0, 0, 0, 0.804);
+}
+
+@media (hover: hover) {
+  /* when hover is supported */
+  span:hover {
+    color:rgba(0, 0, 0, 0.804);
+    text-decoration: underline;
+  }
+}
+
+
+.Main{
+  height:500px;
+  width: 100%;
+  display: grid;
+  grid-template-rows: [line1_start]150px [line1_end line2_start]150px[line2_end line3_start] 100px[line3_end line4_start] 100px [line4_end];
+  grid-template-columns: 30% 50%;
+  justify-content: center;
+
+}
+#id2{
+  color:grey;
+}
+
+#id3{
+  grid-row: line3_start / line3_end;
+  color:grey;
+}
+
+#block2{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+  
+}
+#id033 img{
+  grid-row: 1 / 2;
+  align-content: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-top: 5px;
+  width: 40px;
+  height: 36px;
+
+} 
+
+
+/**/
+#id4{
+  grid-row: line4_start / line4_end;
+}
+
+#image { 
+  grid-row: line1_start / line4_end;
+  grid-column: 2 / -2;
+}
+#image img{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+button{
+  color:white;
+  font-weight: bold;
+  background-color:rgb(224, 85, 57);
+  border:none;
+  border-radius: 8px;
+  height: 35px;
+  width: 200px;
+}
+
+
+
+#arabic{
+font-style:url("https://www.fontspace.com/ramadhan-karim-font-f33631");
+}
+
+.footer{
+  background-color: rgb(217, 217, 217);
+  height:100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  grid-row-gap: 7px;
+  grid-column-gap: 60px;
+}
+
+#f_element{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+#f_element img{
+  height:50px;
+  width:50px;
+}
+#f_element #sada{
+  font-weight: bold;
+  color:rgb(2, 2, 56);
+}
+
+#paragraph{
+   margin-left: 40px;
+}
+
+.icon >i{
+  height: 30px;
+  width: 40px;
+  border: none ;
+  border-radius: 3px;
+  padding-top: 7px;
+  padding-left: 13px;
+  box-sizing: border-box;
+  position: relative;
+  margin-right: 15px;
+  background-color: white;
+}
+
+.apple{
+  height: 40px;
+  width: 170px;
+  background-color: white;
+  border-radius: 5px;
+  display: grid;
+  grid-template-rows: 40px;
+  grid-template-columns: 50px 100px;
+  margin-bottom: 10px;
+  align-content: center;
+}
+.apple #part1{
+  font-size: small;
+  font-weight: bold;
+  grid-row: -2 / -1;
+  grid-column: 2 / 3 ;
+  justify-content:start;
+}
+.apple #part2{
+  font-size: larger;
+  font-weight: bold;
+  grid-row: -2 / -1;
+  grid-column: 2 / 3 ;
+  align-content: end;
+  
+}
+.apple i{
+  grid-row: 1 / 2;
+  align-content: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-left: 10px;
+
+}
+
+.google{
+  height: 40px;
+  width: 170px;
+  background-color: white;
+  border-radius: 5px;
+  display: grid;
+  grid-template-rows: 40px;
+  grid-template-columns: 50px 100px;
+
+}
+.google #part1{
+  font-size: small;
+  font-weight: bold;
+  grid-row: -2 / -1;
+  grid-column: 2 / 3 ;
+  justify-content:start;
+}
+.google #part2{
+  font-size: larger;
+  font-weight: bold;
+  grid-row: -2 / -1;
+  grid-column: 2 / 3 ;
+  align-content: end;
+  
+
+}
+.google img{
+  grid-row: 1 / 2;
+  align-content: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-top: 5px;
+  width: 40px;
+  height: 36px;
+
+}
+
+h3{
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: small;
+}
+
+.footer p{
+  font-family: "Inter", sans-serif;
+  font-size: smaller;
+  color:grey;
+}
